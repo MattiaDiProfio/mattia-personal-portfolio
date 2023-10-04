@@ -148,7 +148,7 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
+    height: 80vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -262,6 +262,12 @@ section {
     position: relative;
 }
 
+.about-me-container {
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+}
+
 .about-container {
     gap: 2rem;
     margin-bottom: 2rem;
@@ -311,6 +317,7 @@ section {
 
 #experience {
     position: relative;
+    margin-top: 7rem;
 }
 
 .experience-sub-title {
@@ -322,6 +329,7 @@ section {
 
 .experience-details-container {
     display: flex;
+    margin-top: 2rem;
     justify-content: center;
     flex-direction: column;
 }
@@ -355,6 +363,12 @@ article .icon {
 
 #projects {
     position: relative;
+    margin-top: 10rem;
+}
+
+.project-icon {
+    height: 150px;
+    margin: 0.5rem 0;
 }
 
 .color-container {
@@ -380,6 +394,10 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
+.project-description {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
 
 /* CONTACT PAGE */
 
@@ -387,7 +405,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 100vh;
 }
 
 .contact-info-upper-container {
@@ -419,4 +437,14 @@ article .icon {
 
 .email-icon {
     height: 2.5rem;
+}
+
+/* FOOTER */
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
 }

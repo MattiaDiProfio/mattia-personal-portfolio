@@ -40,15 +40,14 @@
 
     <section id="profile">
         <div class="section-pic-container">
-            <img src="./assets/profile-pic.png" alt="Mattia Di Profio profile picture">
+            <img src="./assets/profile-pic-rounded.png" alt="Mattia Di Profio profile picture">
         </div>
         <div class="section-text">
-            <p class="section-text-p1">Hello, I'm</p>
             <h1 class="title">Mattia Di Profio</h1>
             <p class="section-text-p2">Student & Developer</p>
             <div class="btn-container">
-                <button class="btn btn-color-1" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
-                <button class="btn btn-color-2" onclick="location.href='./#contactme'">Contact me</button>
+                <button class="btn btn-color-1" onclick="window.open('./assets/MattiaDiProfioCV.pdf')">Download CV</button>
+                <button class="btn btn-color-2" onclick="location.href='#contactme'">Contact me</button>
             </div>
             <div id="socialsContainer">
                 <img src="./assets/linkedin.png" class="icon" onclick="location.href='https://www.linkedin.com/in/mattia-di-profio-69b4131b3/'" alt="Mattia Di Profio LinkedIn profile">
@@ -60,16 +59,14 @@
     <section id="about">
         <p class="section-text-p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
-        <div class="section-container">
-            <div class="section-pic-container">
-                <img src="./assets/about-pic.png" alt="profile pitcure" class="about-pic">
-            </div>
+        <div class="section-container about-me-container">
+
             <div class="about-details-container">
                 <div class="about-container">
                     <div class="details-container">
                         <img src="./assets/experience.png" alt="experience icon" class="icon">
                         <h3>Experience</h3>
-                        <p>2+ years <br> Frontend Development</p>
+                        <p>2+ years Fullstack Development</p>
                     </div>
                     <div class="details-container">
                         <img src="./assets/education.png" alt="education icon" class="icon">
@@ -77,8 +74,9 @@
                         <p>BSc Computing Science Degree</p>
                     </div>
                 </div>
-                <div class="text-container">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laboriosam tenetur ex itaque voluptatem recusandae eius vel eum soluta ipsum. Ducimus corporis incidunt nostrum doloremque voluptatibus ut ipsam recusandae odit?
+                <div class="text-container" id="about-me-text">
+                    Penultimate year student currently working towards a BSc. in Computing Science. Passionate about web development with an interest in backend development.
+                    Having developed a strong technical foundation and being exposed to a wide variety of technologies and software engineering paradigms, I discovered a strong interest in the engineering and development of larger backend infrastructures and hope in the near future to gain valuable experience in a field I find fascinating.
                 </div>
             </div>
         </div>
@@ -96,7 +94,7 @@
                             <img src="./assets/checkmark.png" alt="experience icon" class="icon">
                             <div>
                                 <h3>HTML</h3>
-                                <p>Experienced</p>
+                                <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
@@ -110,28 +108,28 @@
                             <img src="./assets/checkmark.png" alt="experience icon" class="icon">
                             <div>
                                 <h3>JS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
-                            <div>
-                                <h3>Java</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="experience icon" class="icon">
                             <div>
-                                <h3>Python</h3>
+                                <h3>Bootstrap</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="experience icon" class="icon">
                             <div>
-                                <h3>React</h3>
-                                <p>Basic</p>
+                                <h3>UI/UX</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>React JS</h3>
+                                <p>Beginner</p>
                             </div>
                         </article>
                     </div>
@@ -144,34 +142,34 @@
                             <img src="./assets/checkmark.png" alt="experience icon" class="icon">
                             <div>
                                 <h3>Node JS</h3>
-                                <p>Experienced</p>
+                                <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="experience icon" class="icon">
                             <div>
                                 <h3>MongoDB</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Java Spring</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="experience icon" class="icon">
                             <div>
-                                <h3>Spring</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="experience icon" class="icon">
-                            <div>
-                                <h3>Django</h3>
+                                <h3>Express JS</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="experience icon" class="icon">
                             <div>
-                                <h3>Express</h3>
+                                <h3>MySQL</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
@@ -195,35 +193,29 @@
             <div class="about-containers">
 
             <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/project-1.png" alt="Project 1" class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">Project One</h2>
+                <h2 class="experience-sub-title project-title">JetSetGo</h2>
+                <img src="./assets/globe-icon.png" class="project-icon" alt="globe-icon">
+                <p class="section-text-p1 project-description">Airline Reservation Portal</p>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">GitHub</button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/MattiaDiProfio/Airline-Reservation-System'">GitHub</button>
                 </div>
             </div>
 
             <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/project-2.png" alt="Project 2" class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <h2 class="experience-sub-title project-title">PropertEase</h2>
+                <img src="./assets/family-icon.png" class="project-icon" alt="globe-icon">
+                <p class="section-text-p1 project-description">Real Estate Marketplace</p>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">GitHub</button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/MattiaDiProfio/PropertEase'">GitHub</button>
                 </div>
             </div>
 
             <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/project-3.png" alt="Project 3" class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <h2 class="experience-sub-title project-title">ScoreConnect</h2>
+                <img src="./assets/education-icon.png" class="project-icon" alt="globe-icon">
+                <p class="section-text-p1 project-description">Academic Progress Manager</p>
                 <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">GitHub</button>
-                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/MattiaDiProfio/ScoreConnect'">GitHub</button>
                 </div>
             </div>
 
@@ -249,6 +241,20 @@
         </div>
 
     </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contactme">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Mattia Di Profio. All Rights Reserved.</p>
+    </footer>
 
     <script src="app.js"></script>
 </body>
