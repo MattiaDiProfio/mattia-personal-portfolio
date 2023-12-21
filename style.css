@@ -265,6 +265,7 @@ section {
 .about-me-container {
     width: 60vw;
     margin: auto;
+    margin-top: 1rem;
     text-align: center;
 }
 
@@ -366,16 +367,16 @@ article .icon {
     margin-top: 10rem;
 }
 
-.project-icon {
-    height: 150px;
-    margin: 0.5rem 0;
-}
-
 .color-container {
     border-color: rgb(163, 163, 163);
     margin: 1rem;
     padding-top: 2rem;
     background: rgb(250,250,250);
+}
+
+.project-card-text {
+    text-align: left;
+    margin: auto 2rem 2.5rem 2rem;
 }
 
 .project-img {
